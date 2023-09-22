@@ -28,7 +28,7 @@ public class Validation {
         }
     }
 
-    //kiểm tra chuỗi đầu vào của người dùng
+    //check user input string
     public static String checkInputString() {
         //loop until user input correct
         while (true) {
@@ -56,7 +56,7 @@ public class Validation {
         }
     }
 
-    //kiểm tra đầu vào của người dùng gấp đôi
+    //check user input double
     public static double checkInputDouble() {
         //loop until user input correct
         while (true) {
