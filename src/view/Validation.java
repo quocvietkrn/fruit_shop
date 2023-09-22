@@ -29,11 +29,15 @@ public class Validation {
     }
 
     //check user input string
+    // sử dụng trim() để xóa khoảng trắng ở đầu và cuối
+
     public static String checkInputString() {
         //loop until user input correct
         while (true) {
             String result = in.nextLine().trim();
+            //Biến result sau đó chứa chuỗi đã nhập sau khi được loại bỏ các khoảng trắng không cần thiết.
             if (result.isEmpty()) {
+                // chuỗi rỗng thì bắt người dùng nhập lại
                 System.err.println("Not empty");
                 System.out.print("Enter again: ");
             } else {
